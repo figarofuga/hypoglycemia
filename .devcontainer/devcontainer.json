@@ -1,8 +1,11 @@
 {
   "image": "ghcr.io/marp-team/marp-cli",
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-},
+    "ghcr.io/devcontainers/features/git:1": {}, 
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+        "packages": "ca-certificates,fonts-noto-cjk,fonts-ipaexfont"
+    }
+    },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,7 +14,8 @@
         "bierner.markdown-mermaid",
         "shd101wyy.markdown-preview-enhanced",
         "corschenzi.mermaid-graphical-editor",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions", 
+        "hediet.vscode-drawio"
       ]
     }
   }
