@@ -1,1 +1,1 @@
-サンプルスライド/sample.md
+hypoglycemia.md

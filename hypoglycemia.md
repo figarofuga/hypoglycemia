@@ -61,8 +61,8 @@ style: |
         font-size: 40px;
     }
     .cite {
-    font-size: 18px; 
-    text-align: right
+        font-size: 0.8em; 
+        text-align: right;
     }
 
 ---
@@ -85,6 +85,9 @@ style: |
 ## test
 
 <div style="font-size: 18px; text-align:right"><em>JAMA intern Med</em>. 2023</div>
+
+
+JAMA internal medicine{.cite}
 
 
 ---

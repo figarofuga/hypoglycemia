@@ -1,5 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "ghcr.io/marp-team/marp-cli",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+},
   "customizations": {
     "vscode": {
       "extensions": [
