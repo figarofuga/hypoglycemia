@@ -4,6 +4,9 @@ size: 16:9
 paginate: true
 header: <b>東京医療センター総合内科資料</b> 
 style: |
+    section {
+        font-family: serif;
+    }
     section::after {
         content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
         bottom: 10px;
@@ -59,10 +62,6 @@ style: |
         background-color: rgb(37, 37, 37);
         color: rgb(255, 255, 255);
         font-size: 40px;
-    }
-    .cite {
-        font-size: 0.8em; 
-        text-align: right;
     }
 
 ---
