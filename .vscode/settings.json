@@ -1,4 +1,13 @@
 {
     "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
-    "markdown.marp.html": "all"
+    "markdown.marp.html": "all", 
+    "[markdown]":  {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.snippetSuggestions": "top"
+}
 }
