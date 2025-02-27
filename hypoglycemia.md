@@ -102,6 +102,8 @@ style: |
 
 <div style="font-size: 18px; text-align:right"><em>JAMA intern Med</em>. 2023</div>
 
+
+
 ---
 
 # 低血糖の診断
