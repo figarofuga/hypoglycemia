@@ -3,7 +3,7 @@ marp: true
 size: 16:9
 paginate: true
 header: <b>東京医療センター総合内科資料</b> 
-
+theme: gaia
 ---
 <style>
     
@@ -17,9 +17,9 @@ section {
 
 <br>
 
-> # 低血糖についての覚書
->
-> ### 低血糖の考え方
+ # 低血糖についての覚書
+
+ ### 低血糖の考え方
 
 <br>
 <br>
@@ -49,13 +49,14 @@ section {
 
 <div style="font-size: 18px; text-align:right"><em>JAMA intern Med</em>. 2023</div>
 
+<div style='font-size: 18px; text-align:right'>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: <br>Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. <br>https://www.uptodate.com. Accessed February 20, 2025.</div>
 
-Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
+<div style='font-size: 18px; text-align:right'>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: <br>Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. <br>https://www.uptodate.com. Accessed February 20, 2025.</div>
   
 
- Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
+<div style='font-size: 18px; text-align:right'>DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. <br>EBSCO Information Services. Accessed February 20, 2025. <br>https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes</div>
 
-DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes
+
 
 ---
 
