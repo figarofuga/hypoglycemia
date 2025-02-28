@@ -3,67 +3,16 @@ marp: true
 size: 16:9
 paginate: true
 header: <b>東京医療センター総合内科資料</b> 
-style: |
-
-    section::after {
-        content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
-        bottom: 10px;
-        font-size: 20px;
-        color:rgb(160, 160, 160);
-        font-family: "Noto Serif Japanese"
-    }
-
-    section.title {
-        background-color: rgb(17, 85, 204);
-        color: rgb(255, 255, 255);
-    }
-    section.title h1 {
-        font-size: 80px;
-        color: rgb(255, 255, 255);
-    }
-    section.title h3 {
-        color: rgb(255, 255, 255);
-    }
-    section.title header {
-        font-weight: bold;
-        top: 5px;
-        left: 10px;
-        font-size: 20px;
-        color:rgb(255, 255, 255);
-    }
-
-    h1 {
-        color: rgb(17, 85, 204);
-    }
-    h2 {
-        color: rgb(17, 85, 204);
-    }
-    header {
-        top: 5px;
-        left: 10px;
-        font-size: 20px;
-        color:rgb(160, 160, 160);
-    }
-    footer {
-        left: 10px;
-        bottom: 10px;
-        font-size: 20px;
-        color:rgb(160, 160, 160);
-    }
-    section.main {
-        # background-image: url(../ロゴ画像/サンプルロゴ_small.png);
-        background-position: right 10px top 10px;
-        background-size: 8%;
-        background-repeat: no-repeat;
-    }
-
-    section.last_page {
-        background-color: rgb(37, 37, 37);
-        color: rgb(255, 255, 255);
-        font-size: 40px;
-    }
 
 ---
+<style>
+    
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+section {
+    font-family: 'Noto Serif JP', serif;
+}
+</style>
+
 <!--- _class: title --->
 
 <br>
@@ -100,6 +49,13 @@ style: |
 
 <div style="font-size: 18px; text-align:right"><em>JAMA intern Med</em>. 2023</div>
 
+
+Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
+  
+
+ Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
+
+DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes
 
 ---
 
