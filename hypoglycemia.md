@@ -12,10 +12,28 @@ section {
     font-family: 'Noto Serif JP', serif;
 } */
 
+section {
+        font-size: 28px; }
+
+h1 {
+    font-size: 1.75rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+
 ul {
     padding-left: 20px;
     font-size: 0.8em;
 }
+section cite {
+        font-style: normal;
+        font-size: 40%;
+        line-height: calc(0.25rem * 4);
+        text-align: right;
+        float: right;
+        width: 60%; 
+        }
 </style>
 
 <!--- _class: title --->
@@ -49,20 +67,20 @@ ul {
 * 78歳男性
 * 繰り返す低血糖で入院
 
-<div style="font-size: 18px; text-align:right"><em>JAMA intern Med</em>. 2023</div>
+<cite><em>JAMA intern Med</em>. 2023</cite>
 
-<div style='font-size: 18px; text-align:right'>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: <br>Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. <br>https://www.uptodate.com. Accessed February 20, 2025.</div>
+* 例えばこれも
 
-<div style='font-size: 18px; text-align:right'>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: <br>Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. <br>https://www.uptodate.com. Accessed February 20, 2025.</div>
-  
+<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
 
-<div style='font-size: 18px; text-align:right'>DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. <br>EBSCO Information Services. Accessed February 20, 2025. <br>https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes</div>
+* こんなことも
+
+<cite>DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes</cite>
 
 
 
 ---
-
-#　低血糖！とくらいつく前に・・・・・・
+# 低血糖！とくらいつく前に・・・
 
 - 本当に意味のある低血糖？
 - 低血糖の定義
@@ -77,6 +95,9 @@ ul {
 
 ![height:200](./figure/flowchart.svg)
 
+* ここれも
+
+<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
 
 ---
 
