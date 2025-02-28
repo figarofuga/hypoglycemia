@@ -7,9 +7,14 @@ theme: gaia
 ---
 <style>
     
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
 section {
     font-family: 'Noto Serif JP', serif;
+} */
+
+ul {
+    padding-left: 20px;
+    font-size: 0.8em;
 }
 </style>
 
@@ -30,16 +35,13 @@ section {
 ---
 # Agenda
 
-1. 見出しサンプル
-1. 箇条書きリストサンプル
-1. 番号付きリストサンプル
-1. 引用・ハイパーリンクサンプル
-1. テーブルサンプル
-1. コード挿入サンプル
-1. 数式挿入サンプル
-1. 文字装飾サンプル
-1. Mermaidサンプル
-1. 画像の挿入サンプル
+1. 症例
+1. 低血糖！とくらいつく前に・・・・・・
+1. Hypoglycemia without DM
+1. 低血糖のModernな分類
+1. Fitting wellの場合
+1. 低血糖の検査の考え方～低血糖の各種の検査～
+
 
 ---
 # 症例
@@ -60,12 +62,14 @@ section {
 
 ---
 
-# 低血糖の診断
+#　低血糖！とくらいつく前に・・・・・・
 
-
-* 78歳男性
-* 繰り返す低血糖で入院
-
+- 本当に意味のある低血糖？
+- 低血糖の定義
+- Whippleの3️徴を確認する
+    - 有症候か
+    - その症状は低血糖の補正で改善するか
+    - etcetc
 
 ---
 
@@ -76,14 +80,40 @@ section {
 
 ---
 
+# Hypoglycemia without DM
+
+---
+
+
+# 低血糖のModernな分類
+
+
+
+---
+
+# Fitting wellの場合
+
+
+---
+
+# 低血糖の検査の考え方～低血糖の各種の検査～
+
+* Insulinの分泌能をみる検査
+    * ProInsulin
+    * 血清C-peptide
+* Insulinが分泌していないのに血糖が低いときの検査 <br> = 脂肪酸代謝になっている
+    * 血清ケトン体
+
+---
+
 # テーブルサンプル
 
-| 見出し1 | 見出し2 | 見出し3 | 見出し4 |
-|------|:-----|:----:|-----:|
-| 指定なし | 左寄せ<br>(:----) | 中央寄せ<br>(:---:) | 右寄せ<br>(----:) |
-| 1       | 2     | 3       | 4      |
-| 10      | 20    | 30      | 40     |
-| 100     | 200   | 300     | 400    |
+| 疾患名 | C-peptide | ProInsulin | ケトン体 | Insulin抗体 |
+|------|:-----:|:----:|:-----:|:-----:|
+| 指定なし |   |   |   |
+| 1       | 2     | 3       | 4      |4      |
+| 10      | 20    | 30      | 40     |4      |
+| 100     | 200   | 300     | 400    |4      |
 
 
 
@@ -96,8 +126,6 @@ section {
 <div style="text-align:center">中央寄せ</div>
 
 <div style="text-align:right">右寄せ</div>
-
-<span style="font-size: 40px;">文字のサイズ 40px</span> <span style="font-size: 15px;">文字のサイズ 15px</span>
 
 <span style="font-size: 40px;">文字のサイズ 40px</span> <span style="font-size: 15px;">文字のサイズ 15px</span>
 
