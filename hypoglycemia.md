@@ -85,9 +85,9 @@ section cite {
 - 本当に意味のある低血糖？
 - 低血糖の定義
 - Whippleの3️徴を確認する
-    - 有症候か
-    - その症状は低血糖の補正で改善するか
-    - etcetc
+    - Symptoms consistent with hypoglycemia (めまい、冷や汗、空腹感、振戦など)
+    - A low plasma glucose concentration(< 55mg/dL) measured by a laboratory assay (not a glucose meter or continuous glucose monitor) when symptoms are present
+    - Resolution of symptoms after the plasma glucose level is raised
 
 ---
 
@@ -97,7 +97,7 @@ section cite {
 
 * ここれも
 
-<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
+
 
 ---
 
@@ -107,9 +107,11 @@ section cite {
 
 
 # 低血糖のModernな分類
+- 昔は、空腹時と食後で分類していた
+    - この区別は現在では有用性が低いことが知られている
+        -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
 
-
-
+<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
 ---
 
 # Fitting wellの場合
