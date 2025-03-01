@@ -85,9 +85,17 @@ section cite {
 - 本当に意味のある低血糖？
 - 低血糖の定義
 - Whippleの3️徴を確認する
-    - Symptoms consistent with hypoglycemia (めまい、冷や汗、空腹感、振戦など)
+    - Symptoms consistent with hypoglycemia
+        - 自律神経症状: 振戦、動悸、不安/興奮、発汗、空腹感、
+        - Neurogycopenic symptoms: めまい、脱力、意識障害
     - A low plasma glucose concentration(< 55mg/dL) measured by a laboratory assay (not a glucose meter or continuous glucose monitor) when symptoms are present
     - Resolution of symptoms after the plasma glucose level is raised
+
+---
+# 具体的な症状
+
+- Insulinomaで多い症状
+    - 77%が自律神経症状、96%が神経症状(>= 80%が混乱・異常行動, 50%が意識消失、12-19%が痙攣発作)
 
 ---
 
@@ -112,11 +120,51 @@ section cite {
         -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
 
 <cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
+
+---
+
+# Concurrent illness
+
+* Critical illnessの場合はしばしば低血糖になる
+    * 食事量低下+(肝臓/腎臓での)糖新生の低下+Insulinのclearanceの低下
+    * Sepsis, 肝/腎不全
+
 ---
 
 # Fitting wellの場合
 
 
+---
+
+# 内因性のhyperinsulinism
+
+* SU薬などによるBeta cell secretagogue
+* Insulinoma
+* noninsulinoma pancreatogenous hypoglycemia syndrome (NIPHS)
+* Gastric bypass or Nissen手術後の食後低血糖
+* Insulin autoimmune hypoglycemia
+    * 自己抗体が外れた時に低血糖になる
+    * Insulin受容体への自己抗体の場合は、自己抗体が受容体を活性化させてしまう
+
+---
+
+# 血糖上昇ホルモン
+
+* Adrenal insufficiencyが有名
+* 甲状腺機能低下やGH低下単独では低血糖にはなりにくい
+    * 下垂体疾患による合わせ技で起こしやすい 
+
+---
+
+# 薬を考慮
+
+| 薬剤名 | C-peptide | 
+|------|:-----:|
+| Moderate quality | Cibenzoline, Gatifloxacin, Pentamidine, Quinine, Indomethacin, Glucagon during endoscopy|
+| Low qualtiy  | Chloroquineoxaline sulfonamide, Artemisin, IGF-1, Lithium, Propoxypherene/Dextropropoxyphene |
+
+* Quinolones, Pentamidine, Quinine, BB, ACEi, IGF-1が有名
+* Very low quality of evidenceは割愛
 ---
 
 # 低血糖の検査の考え方～低血糖の各種の検査～
@@ -129,7 +177,7 @@ section cite {
 
 ---
 
-# テーブルサンプル
+# 検査結果の解釈
 
 | 疾患名 | C-peptide | ProInsulin | ケトン体 | Insulin抗体 |
 |------|:-----:|:----:|:-----:|:-----:|
@@ -138,6 +186,15 @@ section cite {
 | 10      | 20    | 30      | 40     |4      |
 | 100     | 200   | 300     | 400    |4      |
 
+---
+# UptoDateのアルゴリズム
+
+1. 副腎不全を否定する
+2. アルコールや薬などの低血糖Riskの確認
+3. Bariatric surgery, Insulinや血糖降下薬のアクセス、悪性腫瘍の既往
+4. Concurrent illnessと判断
+
+<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
 
 
 ---
