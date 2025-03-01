@@ -34,6 +34,19 @@ section cite {
         float: right;
         width: 60%; 
         }
+.mermaid {
+    width: 100%;
+    height: 100%;
+    background: none; // preタグの装飾消し
+    border: none // preタグの装飾消し
+  }
+.mermaid svg {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto
+  }
 </style>
 
 <!--- _class: title --->
@@ -51,6 +64,7 @@ section cite {
 **Nozomi Niimi**
 
 ---
+
 # Agenda
 
 1. 症例
@@ -90,12 +104,20 @@ section cite {
         - Neurogycopenic symptoms: めまい、脱力、意識障害
     - A low plasma glucose concentration(< 55mg/dL) measured by a laboratory assay (not a glucose meter or continuous glucose monitor) when symptoms are present
     - Resolution of symptoms after the plasma glucose level is raised
+- 若年女性だと絶食期間があると無症状の低血糖になる事は多い
 
 ---
 # 具体的な症状
 
 - Insulinomaで多い症状
     - 77%が自律神経症状、96%が神経症状(>= 80%が混乱・異常行動, 50%が意識消失、12-19%が痙攣発作)
+- 症候性
+    - 65 mg/dL未満で症状があればほぼ有意
+    - 65-79 mg/dLの場合は通常は低血糖によるものではないが、否定は出来ない
+    - 80 mg/dL以上だと症状の原因にはならない
+- 無症候性
+    - 40 mg/dL未満は有意: 繰り返す低血糖で症状が出なくなっている可能性
+    - 40-64 mg/dL: 患者背景で考える
 
 ---
 
@@ -109,7 +131,12 @@ section cite {
 
 ---
 
-# Hypoglycemia without DM
+# Hypoglycemiaの問診
+
+* 詳細な病歴
+    * いつ・どんな症状が出る？誘発因子は？
+    * 薬は？OTCも含めて
+
 
 ---
 
@@ -214,6 +241,23 @@ section cite {
 ## 研究結果
 
 この研究の結果について述べる。
+
+---
+
+# Basic flowchart
+<pre class="mermaid">
+graph LR
+  A[Square Rect] -- Link text --> B((Circle))
+  A --> C(Round Rect)
+  B --> D{Rhombus}
+  C --> D
+</pre>
+
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script>
+
 
 ---
 <!---
