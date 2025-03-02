@@ -10,7 +10,7 @@
 		"scope": "markdown",
 		"prefix": "refs",
 		"body": [
-			"<cite><em>$1</em></cite>"
+			"<div style='text-align:right;font-size:0.75em;float:right;width:50%'>$1</div>"
 		],
 		"description": "Incert citations"
 

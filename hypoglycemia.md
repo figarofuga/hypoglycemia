@@ -12,32 +12,34 @@ section {
 } */
 
 section {
-        font-size: 28px; }
+        font-size: 28px; 
+        }
 
 h1 {
     font-size: 1.75em;
 }
+
 h2 {
     font-size: 1.5em;
 }
 
-ul, ul ul, ul ul ul {
+ul, li {
     padding-left: 20px;
     font-size: 0.8em;
 }
 
-ul li ul { 
-  font-size: 0.6em; /* 親の 70% のサイズ */
+ul ul {
+    font-size: 0.6em;
 }
 
-section cite {
-        font-style: normal;
-        font-size: 18px;
-        line-height: calc(0.25rem * 4);
-        text-align: right;
-        float: right;
-        width: 50%; 
-        }
+ul ul ul {
+    font-size: 0.4em;
+}
+
+ul ul ul ul {
+    font-size: 0.3em;
+}
+
 .mermaid {
     width: 100%;
     height: 100%;
@@ -52,6 +54,14 @@ section cite {
     margin: 0 auto
   }
 
+table, th, td  {
+    width: 100%; 
+    border-collapse: collapse; 
+    font-size: 0.8em; 
+}
+.smalltable > table, .smalltable > th, .smalltable > td {
+    font-size: 50%;
+}
 </style>
 
 <!--- _class: title --->
@@ -85,7 +95,6 @@ section cite {
 
 * 78歳男性
 * 繰り返す低血糖で入院
-
 * 例えばこれも
 
 
@@ -133,6 +142,40 @@ section cite {
     * いつ・どんな症状が出る？誘発因子は？
     * 薬は？OTCも含めて
 
+---
+
+# 低血糖の鑑別
+
+* Ill or medicated individual
+    1. Drugs
+        - Insulin or insulin secretagogue
+        - Alcohol
+    1. Critical illnesses
+        - Hepatic, renal, or cardiac failure
+        - Sepsis (including malaria)
+    1. Hormone deficiency
+        - Cortisol
+        - Glucagon and epinephrine (in insulin-deficient diabetes mellitus)
+    1. Nonislet cell tumor
+
+---
+
+# 低血糖の鑑別
+
+* Seemingly well individual
+
+    1. Endogenous hyperinsulinism
+        - Insulinoma
+        - Functional beta cell disorders (nesidioblastosis)
+            - Noninsulinoma pancreatogenous hypoglycemia
+            - Post-gastric bypass hypoglycemia
+        - Insulin autoimmune hypoglycemia
+            - Antibody to insulin
+            - Antibody to insulin receptor
+        - Insulin secretagogue
+        - Other
+    1. Accidental, surreptitious, or malicious hypoglycemia
+
 
 ---
 
@@ -142,7 +185,6 @@ section cite {
     - この区別は現在では有用性が低いことが知られている
         -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
 
-<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Clinical manifestations, causes, and diagnosis. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
 
 ---
 
@@ -164,6 +206,7 @@ section cite {
 * SU薬などによるBeta cell secretagogue
 * Insulinoma
 * noninsulinoma pancreatogenous hypoglycemia syndrome (NIPHS)
+    * 膵島細胞の過形成および、膵管上皮細胞のLngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴
 * Gastric bypass or Nissen手術後の食後低血糖
 * Insulin autoimmune hypoglycemia
     * 自己抗体が外れた時に低血糖になる
@@ -181,10 +224,10 @@ section cite {
 
 # 薬を考慮
 
-| 薬剤名 | C-peptide | 
-|------|:-----:|
-| Moderate quality | Cibenzoline, Gatifloxacin, Pentamidine, Quinine, Indomethacin, Glucagon during endoscopy|
-| Low qualtiy  | Chloroquineoxaline sulfonamide, Artemisin, IGF-1, Lithium, Propoxypherene/Dextropropoxyphene |
+| 薬剤名           |                                          C-peptide                                           |
+| ---------------- | :------------------------------------------------------------------------------------------: |
+| Moderate quality |   Cibenzoline, Gatifloxacin, Pentamidine, Quinine, Indomethacin, Glucagon during endoscopy   |
+| Low qualtiy      | Chloroquineoxaline sulfonamide, Artemisin, IGF-1, Lithium, Propoxypherene/Dextropropoxyphene |
 
 * Quinolones, Pentamidine, Quinine, BB, ACEi, IGF-1が有名
 * Very low quality of evidenceは割愛
@@ -202,15 +245,35 @@ section cite {
 
 # 検査結果の解釈
 
-| 疾患名 | C-peptide | ProInsulin | ケトン体 | Insulin抗体 |
-|------|:-----:|:----:|:-----:|:-----:|
-| 指定なし |   |   |   |
-| 1       | 2     | 3       | 4      |4      |
-| 10      | 20    | 30      | 40     |4      |
-| 100     | 200   | 300     | 400    |4      |
+<div class="smalltable"> 
+
+|            疾患名             | Insulin (microU/mL) | C-peptide (nmol/L) | Proinsulin (pmol/L) | βヒドロキシ酪酸 (mmol/L) | insulin自己抗体 |
+| :---------------------------: | :-----------------: | :----------------: | :-----------------: | :----------------------: | :-------------: |
+|         外因性insulin         |         >>3         |        <0.2        |         <5          |           ≤2.7           | 陰性 (時に陽性) |
+|    Insulinoma, NIPHS<sup>1</sup>, PGBH<sup>2</sup>    |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
+|          血糖降下薬           |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
+|        Insulin自己抗体        |         >>3         |       >>0.2        |        >>5¶         |           ≤2.7           |      陽性       |
+|           IGFによる           |         <3          |        <0.2        |         <5          |           ≤2.7           |      陰性       |
+| Not insulin (or IGF)-mediated |         <3          |        <0.2        |         <5          |           >2.7           |      陰性       |
+
+</div>
+1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
+2. PGBH: post-gastric bypass hypoglycemia
+
+---
+
+# Point
+
+* Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
+* C-peptide, ProInsulinはInsulinが内因性か外因性かを判断する
+    * Insulinによる低血糖の時に、C-peptide <0.2nmol/L(0.6 ng/mL)は外因性のInsulin
+    * ProInsulin <5 pmol/Lは外因性のInsulinを示唆する
+    * ProInsulin, C-peptideが高いと悪性腫瘍を示唆し、Proinsulinが高値なほど未分化
+* βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、慢性の低栄養、肝腎不全、薬剤性など
 
 ---
 # UptoDateのアルゴリズム
+
 
 1. 副腎不全を否定する
 2. アルコールや薬などの低血糖Riskの確認
@@ -243,6 +306,14 @@ section cite {
 * 72時間経過あるいは<55mg/dLまたは無症候でもBS< 45 mg/dLを達成したら修了
 * BS< 55 mg/dLの時の採血を行う
 * Glucagon 1mg ivし10, 20, 30min後の血糖測定
+    * Glucagon iv後にGluが25 mg/dL以上改善したらInsulin性低血糖を示唆する
+
+---
+
+# 検査の解釈
+
+* 閾値は通常と異なること二注意
+* 低血糖時の検査の閾値での結果はInsulinomaに対して感度>90%, 特異度>70%
 
 
 ---
@@ -251,7 +322,8 @@ section cite {
 
 <center>中央寄せ</center>
 
-<div style="text-align:center">中央寄せ</div>
+<div style="text-align:right;font-size:0.75em"><em>JAMA</rem>2023</div>
+
 
 <div style="text-align:right">右寄せ</div>
 
