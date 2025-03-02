@@ -318,56 +318,6 @@ table, th, td  {
 
 ---
 
-# 文字装飾サンプル (2/2)
-
-<center>中央寄せ</center>
-
-<div style="text-align:right;font-size:0.75em"><em>JAMA</rem>2023</div>
-
-
-<div style="text-align:right">右寄せ</div>
-
-<span style="font-size: 40px;">文字のサイズ 40px</span> <span style="font-size: 15px;">文字のサイズ 15px</span>
-
-<span style="color: rgb(233, 71, 9);">テキスト色変更</span>
-
-## 研究結果
-
-この研究の結果について述べる。
-
----
-
-# Basic flowchart
-<pre class="mermaid">
-flowchart LR
-    A[糖尿病のない成人における低血糖の原因特定]
-
-    A -->|以下の副腎不全の症状があるか？ \n - 筋力低下 \n - 倦怠感 \n - 体重減少 \n - 低ナトリウム血症 \n - 起立性低血圧| B{はい or いいえ}
-    
-    B -->|はい| C[副腎不全の可能性あり \n 適切な診断検査を実施]
-    B -->|いいえ| D{危険なアルコール摂取または \n 低血糖を引き起こす薬を使用しているか？}
-
-    D -->|はい| E[薬剤またはアルコールによる低血糖の可能性 \n 疑わしい因子の除去を実施]
-    E -->|因子を除去後、低血糖は改善したか？| F{はい or いいえ}
-    F -->|はい| G[低血糖は薬剤またはアルコールが原因 \n 追加の評価は通常不要]
-    F -->|いいえ| H{以下のいずれかの病歴があるか？ \n - バリアトリック手術歴 \n - インスリンやその他の血糖降下薬の使用 \n - 重度の低血糖発作の再発 \n - 悪性腫瘍の病歴}
-
-    H -->|はい| I[偽低血糖、内因性高インスリン血症、または非膵島細胞腫瘍（IGF関連）の可能性 \n 監視下での検査を実施]
-    H -->|いいえ| J{以下の2つの条件を満たすか？ \n - 急性または慢性の腎・肝機能障害、敗血症、またはその他の重篤な疾患 \n - 低血糖と疾患が同時に発生}
-
-    J -->|はい| K[低血糖は疾患または臓器機能障害による可能性 \n 追加の評価は通常不要]
-    J -->|いいえ または 不明| L[内因性高インスリン血症または偽低血糖の可能性 \n 監視下での検査を実施]
-
-    D -->|いいえ または 不明| H
-</pre>
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
-
----
-
 # Reference
 
 
@@ -377,14 +327,16 @@ mermaid.initialize({ startOnLoad: true });
 
 * Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
 
-
 ---
+
 <!---
 class: last_page
 --->
 
 <center>
 <b>
-ご清聴ありがとうございました
+<div style='text-align:center;font-size:1.5em'>ご清聴大変ありがとうございました</div>
 </b>
 </center>
+---
+
