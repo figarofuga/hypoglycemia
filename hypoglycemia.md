@@ -3,7 +3,6 @@ marp: true
 size: 16:9
 paginate: true
 header: <b>東京医療センター総合内科資料</b> 
-theme: gaia
 ---
 <style>
     
@@ -33,11 +32,11 @@ ul li ul {
 
 section cite {
         font-style: normal;
-        font-size: 40%;
+        font-size: 18px;
         line-height: calc(0.25rem * 4);
         text-align: right;
         float: right;
-        width: 60%; 
+        width: 50%; 
         }
 .mermaid {
     width: 100%;
@@ -52,6 +51,7 @@ section cite {
     max-height: 100%;
     margin: 0 auto
   }
+
 </style>
 
 <!--- _class: title --->
@@ -86,16 +86,7 @@ section cite {
 * 78歳男性
 * 繰り返す低血糖で入院
 
-<cite><em>JAMA intern Med</em>. 2023</cite>
-
 * 例えばこれも
-
-<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
-
-* こんなことも
-
-<cite>DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes</cite>
-
 
 
 ---
@@ -226,8 +217,6 @@ section cite {
 3. Bariatric surgery, Insulinや血糖降下薬のアクセス、悪性腫瘍の既往
 4. Concurrent illnessと判断
 
-<cite>Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.</cite>
-
 
 ---
 
@@ -304,6 +293,17 @@ flowchart LR
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
 mermaid.initialize({ startOnLoad: true });
 </script>
+
+---
+
+# Reference
+
+
+* Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
+
+* DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes
+
+* Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
 
 
 ---
