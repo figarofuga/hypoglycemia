@@ -16,16 +16,21 @@ section {
         font-size: 28px; }
 
 h1 {
-    font-size: 1.75rem;
+    font-size: 1.75em;
 }
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
-ul {
+ul, ul ul, ul ul ul {
     padding-left: 20px;
     font-size: 0.8em;
 }
+
+ul li ul { 
+  font-size: 0.6em; /* 親の 70% のサイズ */
+}
+
 section cite {
         font-style: normal;
         font-size: 40%;
@@ -37,7 +42,7 @@ section cite {
 .mermaid {
     width: 100%;
     height: 100%;
-    background: none; // preタグの装飾消し
+    background: white; // preタグの装飾消し
     border: none // preタグの装飾消し
   }
 .mermaid svg {
@@ -226,6 +231,33 @@ section cite {
 
 ---
 
+# 勇気を持って
+
+* Insulin/IGFによる低血糖疑い or 原因がわからない時に**誘発試験**の適応
+* 絶食試験あるいはMixed-meal test(食後5時間以内に発症)で低血糖を誘発
+* 低血糖の時に採血を行う
+    * 血糖値
+    * Insulin値
+    * 血清C-peptide
+    * 血清βヒドロキシ酪酸(aka ケトン体)
+    * プロインシュリン値
+    * (血糖降下薬のスクリーニング)
+
+---
+
+# 絶食試験のやり方
+
+* AM 8時に絶食開始
+* カロリー/カフェインフリーの飲み物のみ摂取可
+* 2hr毎に血糖測定
+* 70mg/dL未満になったら、30min毎に症状確認と血糖測定
+* 72時間経過あるいは<55mg/dLまたは無症候でもBS< 45 mg/dLを達成したら修了
+* BS< 55 mg/dLの時の採血を行う
+* Glucagon 1mg ivし10, 20, 30min後の血糖測定
+
+
+---
+
 # 文字装飾サンプル (2/2)
 
 <center>中央寄せ</center>
@@ -246,11 +278,26 @@ section cite {
 
 # Basic flowchart
 <pre class="mermaid">
-graph LR
-  A[Square Rect] -- Link text --> B((Circle))
-  A --> C(Round Rect)
-  B --> D{Rhombus}
-  C --> D
+flowchart LR
+    A[糖尿病のない成人における低血糖の原因特定]
+
+    A -->|以下の副腎不全の症状があるか？ \n - 筋力低下 \n - 倦怠感 \n - 体重減少 \n - 低ナトリウム血症 \n - 起立性低血圧| B{はい or いいえ}
+    
+    B -->|はい| C[副腎不全の可能性あり \n 適切な診断検査を実施]
+    B -->|いいえ| D{危険なアルコール摂取または \n 低血糖を引き起こす薬を使用しているか？}
+
+    D -->|はい| E[薬剤またはアルコールによる低血糖の可能性 \n 疑わしい因子の除去を実施]
+    E -->|因子を除去後、低血糖は改善したか？| F{はい or いいえ}
+    F -->|はい| G[低血糖は薬剤またはアルコールが原因 \n 追加の評価は通常不要]
+    F -->|いいえ| H{以下のいずれかの病歴があるか？ \n - バリアトリック手術歴 \n - インスリンやその他の血糖降下薬の使用 \n - 重度の低血糖発作の再発 \n - 悪性腫瘍の病歴}
+
+    H -->|はい| I[偽低血糖、内因性高インスリン血症、または非膵島細胞腫瘍（IGF関連）の可能性 \n 監視下での検査を実施]
+    H -->|いいえ| J{以下の2つの条件を満たすか？ \n - 急性または慢性の腎・肝機能障害、敗血症、またはその他の重篤な疾患 \n - 低血糖と疾患が同時に発生}
+
+    J -->|はい| K[低血糖は疾患または臓器機能障害による可能性 \n 追加の評価は通常不要]
+    J -->|いいえ または 不明| L[内因性高インスリン血症または偽低血糖の可能性 \n 監視下での検査を実施]
+
+    D -->|いいえ または 不明| H
 </pre>
 
 <script type="module">
