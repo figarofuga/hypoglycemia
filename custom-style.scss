@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+// 以下でフォント、色、ボーダーなどに影響する変数を定義する
+
+/*-- scss:rules --*/
+// 以下でCSSルールを作成する
+
+.reveal h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+.reveal h2 {
+    color: #34495e;
+    font-size: 2em;
+    text-align: left;
+  }
+
+.reveal h3 {
+    color: #34495e;
+    font-size: 1.5em;
+    text-align: left;
+    text-indent: 1.5em;
+
+  }
