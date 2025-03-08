@@ -1,16 +1,17 @@
 {
-  "image": "ghcr.io/marp-team/marp-cli",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}, 
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-        "packages": "ca-certificates,fonts-noto-cjk,fonts-ipaexfont"
-    }
+        "packages": "fonts-noto-cjk,fonts-ipaexfont"
+    }, 
+    "ghcr.io/devcontainers-extra/features/typst:1": {}
     },
   "customizations": {
     "vscode": {
       "extensions": [
-        "marp-team.marp-vscode",
-        "tyriar.luna-paint",
+        "quarto.quarto-vscode",
         "bierner.markdown-mermaid",
         "shd101wyy.markdown-preview-enhanced",
         "corschenzi.mermaid-graphical-editor",
