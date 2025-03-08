@@ -1,86 +1,23 @@
 ---
-marp: true
-size: 16:9
-paginate: true
-header: <b>東京医療センター総合内科資料</b> 
----
-<style>
-    
-/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
-section {
-    font-family: 'Noto Serif JP', serif;
-} */
-
-section {
-        font-size: 28px; 
-        }
-
-h1 {
-    font-size: 1.75em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-ul, li {
-    padding-left: 20px;
-    font-size: 0.8em;
-}
-
-ul ul {
-    font-size: 0.6em;
-}
-
-ul ul ul {
-    font-size: 0.4em;
-}
-
-ul ul ul ul {
-    font-size: 0.3em;
-}
-
-.mermaid {
-    width: 100%;
-    height: 100%;
-    background: white; // preタグの装飾消し
-    border: none // preタグの装飾消し
-  }
-.mermaid svg {
-    display: block;
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto
-  }
-
-table, th, td  {
-    width: 100%; 
-    border-collapse: collapse; 
-    font-size: 0.8em; 
-}
-.smalltable > table, .smalltable > th, .smalltable > td {
-    font-size: 50%;
-}
-</style>
-
-<!--- _class: title --->
-
-<br>
-
- # 低血糖についての覚書
-
- ### 低血糖の考え方
-
-<br>
-<br>
-
-2025年 2月 24日
-**Nozomi Niimi**
-
+title: 低血糖についての覚書
+subtitle: 低血糖の考え方
+format:
+  revealjs:
+    theme: [default]
+    fig-width: 8
+    fig-height: 6
+    incremental: false
+author:
+  - name: Nozomi Niimi
+    orcid: 0000-0002-6909-0740
+    email: figarofuga@gmail.com
+    affiliations: 東京医療センター総合内科
+date: last-modified
+bibliography: references.bib
 ---
 
-# Agenda
+
+## Agenda
 
 1. 症例
 1. 低血糖！とくらいつく前に・・・・・・
@@ -90,16 +27,14 @@ table, th, td  {
 1. 低血糖の検査の考え方～低血糖の各種の検査～
 
 
----
-# 症例
+## 症例
 
 * 78歳男性
 * 繰り返す低血糖で入院
 * 例えばこれも
 
 
----
-# 低血糖！とくらいつく前に・・・
+## 低血糖！とくらいつく前に・・・
 
 - 本当に意味のある低血糖？
 - 低血糖の定義
@@ -111,8 +46,7 @@ table, th, td  {
     - Resolution of symptoms after the plasma glucose level is raised
 - 若年女性だと絶食期間があると無症状の低血糖になる事は多い
 
----
-# 具体的な症状
+## 具体的な症状
 
 - Insulinomaで多い症状
     - 77%が自律神経症状、96%が神経症状(>= 80%が混乱・異常行動, 50%が意識消失、12-19%が痙攣発作)
@@ -124,9 +58,8 @@ table, th, td  {
     - 40 mg/dL未満は有意: 繰り返す低血糖で症状が出なくなっている可能性
     - 40-64 mg/dL: 患者背景で考える
 
----
 
-# 低血糖の診断 at glance
+## 低血糖の診断 at glance
 
 ![height:200](./figure/flowchart.svg)
 
@@ -134,17 +67,14 @@ table, th, td  {
 
 
 
----
-
-# Hypoglycemiaの問診
+## Hypoglycemiaの問診
 
 * 詳細な病歴
     * いつ・どんな症状が出る？誘発因子は？
     * 薬は？OTCも含めて
 
----
 
-# 低血糖の鑑別
+## 低血糖の鑑別
 
 * Ill or medicated individual
     1. Drugs
@@ -158,9 +88,8 @@ table, th, td  {
         - Glucagon and epinephrine (in insulin-deficient diabetes mellitus)
     1. Nonislet cell tumor
 
----
 
-# 低血糖の鑑別
+## 低血糖の鑑別
 
 * Seemingly well individual
 
@@ -177,31 +106,22 @@ table, th, td  {
     1. Accidental, surreptitious, or malicious hypoglycemia
 
 
----
-
-
-# 低血糖のModernな分類
+## 低血糖のModernな分類
 - 昔は、空腹時と食後で分類していた
     - この区別は現在では有用性が低いことが知られている
         -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
 
 
----
-
-# Concurrent illness
+## Concurrent illness
 
 * Critical illnessの場合はしばしば低血糖になる
     * 食事量低下+(肝臓/腎臓での)糖新生の低下+Insulinのclearanceの低下
     * Sepsis, 肝/腎不全
 
----
-
-# Fitting wellの場合
+## Fitting wellの場合
 
 
----
-
-# 内因性のhyperinsulinism
+## 内因性のhyperinsulinism
 
 * SU薬などによるBeta cell secretagogue
 * Insulinoma
@@ -212,28 +132,24 @@ table, th, td  {
     * 自己抗体が外れた時に低血糖になる
     * Insulin受容体への自己抗体の場合は、自己抗体が受容体を活性化させてしまう
 
----
-
-# 血糖上昇ホルモン
+## 血糖上昇ホルモン
 
 * Adrenal insufficiencyが有名
 * 甲状腺機能低下やGH低下単独では低血糖にはなりにくい
     * 下垂体疾患による合わせ技で起こしやすい 
 
----
-
-# 薬を考慮
+## 薬を考慮
 
 | 薬剤名           |                                          C-peptide                                           |
-| ---------------- | :------------------------------------------------------------------------------------------: |
+| ---------------- | :-------------------------------------------------------------------------------------------: |
 | Moderate quality |   Cibenzoline, Gatifloxacin, Pentamidine, Quinine, Indomethacin, Glucagon during endoscopy   |
 | Low qualtiy      | Chloroquineoxaline sulfonamide, Artemisin, IGF-1, Lithium, Propoxypherene/Dextropropoxyphene |
 
 * Quinolones, Pentamidine, Quinine, BB, ACEi, IGF-1が有名
 * Very low quality of evidenceは割愛
----
 
-# 低血糖の検査の考え方～低血糖の各種の検査～
+
+## 低血糖の検査の考え方～低血糖の各種の検査～
 
 * Insulinの分泌能をみる検査
     * ProInsulin
@@ -241,14 +157,12 @@ table, th, td  {
 * Insulinが分泌していないのに血糖が低いときの検査 <br> = 脂肪酸代謝になっている
     * 血清ケトン体
 
----
-
-# 検査結果の解釈
+## 検査結果の解釈
 
 <div class="smalltable"> 
 
 |            疾患名             | Insulin (microU/mL) | C-peptide (nmol/L) | Proinsulin (pmol/L) | βヒドロキシ酪酸 (mmol/L) | insulin自己抗体 |
-| :---------------------------: | :-----------------: | :----------------: | :-----------------: | :----------------------: | :-------------: |
+| :---------------------------: | :----------------: | :-----------------: | :-----------------: | :--------------------: | :-------------: |
 |         外因性insulin         |         >>3         |        <0.2        |         <5          |           ≤2.7           | 陰性 (時に陽性) |
 |    Insulinoma, NIPHS<sup>1</sup>, PGBH<sup>2</sup>    |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
 |          血糖降下薬           |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
@@ -260,7 +174,7 @@ table, th, td  {
 1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
 2. PGBH: post-gastric bypass hypoglycemia
 
----
+##
 
 # Point
 
@@ -271,8 +185,7 @@ table, th, td  {
     * ProInsulin, C-peptideが高いと悪性腫瘍を示唆し、Proinsulinが高値なほど未分化
 * βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、慢性の低栄養、肝腎不全、薬剤性など
 
----
-# UptoDateのアルゴリズム
+## UptoDateのアルゴリズム
 
 
 1. 副腎不全を否定する
@@ -281,9 +194,7 @@ table, th, td  {
 4. Concurrent illnessと判断
 
 
----
-
-# 勇気を持って
+## 勇気を持って
 
 * Insulin/IGFによる低血糖疑い or 原因がわからない時に**誘発試験**の適応
 * 絶食試験あるいはMixed-meal test(食後5時間以内に発症)で低血糖を誘発
@@ -295,9 +206,7 @@ table, th, td  {
     * プロインシュリン値
     * (血糖降下薬のスクリーニング)
 
----
-
-# 絶食試験のやり方
+## 絶食試験のやり方
 
 * AM 8時に絶食開始
 * カロリー/カフェインフリーの飲み物のみ摂取可
@@ -308,17 +217,13 @@ table, th, td  {
 * Glucagon 1mg ivし10, 20, 30min後の血糖測定
     * Glucagon iv後にGluが25 mg/dL以上改善したらInsulin性低血糖を示唆する
 
----
-
-# 検査の解釈
+## 検査の解釈
 
 * 閾値は通常と異なること二注意
 * 低血糖時の検査の閾値での結果はInsulinomaに対して感度>90%, 特異度>70%
 
 
----
-
-# Reference
+## Reference
 
 
 * Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
@@ -326,17 +231,4 @@ table, th, td  {
 * DynaMed. Hypoglycemia in Adults - Approach to the Patient Without Diabetes. EBSCO Information Services. Accessed February 20, 2025. https://www.dynamed.com/approach-to/hypoglycemia-in-adults-approach-to-the-patient-without-diabetes
 
 * Adrian Vella, MD. Hypoglycemia in adults without diabetes mellitus: Determining the etiology. In: UpToDate, Connor RF (Ed), Wolters Kluwer. https://www.uptodate.com. Accessed February 20, 2025.
-
----
-
-<!---
-class: last_page
---->
-
-<center>
-<b>
-<div style='text-align:center;font-size:1.5em'>ご清聴大変ありがとうございました</div>
-</b>
-</center>
----
 
