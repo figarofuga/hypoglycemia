@@ -38,12 +38,12 @@ bibliography: references.bib
 
 - 本当に意味のある低血糖？
 - 低血糖の定義
-- Whippleの3️徴を確認する
+- Whippleの3徴を確認する
     - Symptoms consistent with hypoglycemia
         - 自律神経症状: 振戦、動悸、不安/興奮、発汗、空腹感、
         - Neurogycopenic symptoms: めまい、脱力、意識障害
-    - A low plasma glucose concentration(< 55mg/dL) measured by a laboratory assay (not a glucose meter or continuous glucose monitor) when symptoms are present
-    - Resolution of symptoms after the plasma glucose level is raised
+    - 有症状時に通常の採血で血糖値< 55mg/dLが証明されている
+    - 血糖値が改善したら症状も改善する
 - 若年女性だと絶食期間があると無症状の低血糖になる事は多い
 
 ## 具体的な症状
@@ -76,7 +76,7 @@ bibliography: references.bib
 
 ## 低血糖の鑑別
 
-* Ill or medicated individual
+* 重症あるいは、薬剤な服Ill or medicated individual
     1. Drugs
         - Insulin or insulin secretagogue
         - Alcohol
