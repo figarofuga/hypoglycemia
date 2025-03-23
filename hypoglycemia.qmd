@@ -46,7 +46,7 @@ bibliography: references.bib
     - 血糖値が改善したら症状も改善する
 - 若年女性だと絶食期間があると無症状の低血糖になる事は多い
 
-## 具体的な症状
+## 具体的な症状 {.smaller}
 
 - Insulinomaで多い症状
     - 77%が自律神経症状、96%が神経症状(>= 80%が混乱・異常行動, 50%が意識消失、12-19%が痙攣発作)
@@ -61,7 +61,7 @@ bibliography: references.bib
 
 ## 低血糖の診断 at glance
 
-![height:200](./figure/flowchart.svg)
+![](./figure/flowchart.svg)
 
 * ここれも
 
@@ -74,7 +74,7 @@ bibliography: references.bib
     * 薬は？OTCも含めて
 
 
-## 低血糖の鑑別
+## 低血糖の鑑別 {.smaller}
 
 * 重症あるいは、薬剤な服Ill or medicated individual
     1. Drugs
@@ -89,7 +89,7 @@ bibliography: references.bib
     1. Nonislet cell tumor
 
 
-## 低血糖の鑑別
+## 低血糖の鑑別 {.smaller}
 
 * Seemingly well individual
 
@@ -157,9 +157,7 @@ bibliography: references.bib
 * Insulinが分泌していないのに血糖が低いときの検査 <br> = 脂肪酸代謝になっている
     * 血清ケトン体
 
-## 検査結果の解釈
-
-<div class="smalltable"> 
+## 検査結果の解釈{.smaller}
 
 |            疾患名             | Insulin (microU/mL) | C-peptide (nmol/L) | Proinsulin (pmol/L) | βヒドロキシ酪酸 (mmol/L) | insulin自己抗体 |
 | :---------------------------: | :----------------: | :-----------------: | :-----------------: | :--------------------: | :-------------: |
@@ -170,13 +168,11 @@ bibliography: references.bib
 |           IGFによる           |         <3          |        <0.2        |         <5          |           ≤2.7           |      陰性       |
 | Not insulin (or IGF)-mediated |         <3          |        <0.2        |         <5          |           >2.7           |      陰性       |
 
-</div>
+
 1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
 2. PGBH: post-gastric bypass hypoglycemia
 
-##
-
-# Point
+## Point {.smaller}
 
 * Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
 * C-peptide, ProInsulinはInsulinが内因性か外因性かを判断する
@@ -206,7 +202,7 @@ bibliography: references.bib
     * プロインシュリン値
     * (血糖降下薬のスクリーニング)
 
-## 絶食試験のやり方
+## 絶食試験のやり方 {.smaller}
 
 * AM 8時に絶食開始
 * カロリー/カフェインフリーの飲み物のみ摂取可
