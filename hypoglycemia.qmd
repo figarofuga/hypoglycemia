@@ -7,6 +7,8 @@ format:
     height: 800
     theme: [default, custom-style.scss]
     incremental: false
+    scrollable: true
+    embed-resources: true
 author:
   - name: Nozomi Niimi
     orcid: 0000-0002-6909-0740
@@ -73,42 +75,7 @@ bibliography: references.bib
     * いつ・どんな症状が出る？誘発因子は？
     * 薬は？OTCも含めて
 
-<<<<<<< HEAD
-=======
 
-## 低血糖の鑑別 {.smaller}
-
-* 重症あるいは、薬剤な服Ill or medicated individual
-    1. Drugs
-        - Insulin or insulin secretagogue
-        - Alcohol
-    1. Critical illnesses
-        - Hepatic, renal, or cardiac failure
-        - Sepsis (including malaria)
-    1. Hormone deficiency
-        - Cortisol
-        - Glucagon and epinephrine (in insulin-deficient diabetes mellitus)
-    1. Nonislet cell tumor
-
-
-## 低血糖の鑑別 {.smaller}
-
-* Seemingly well individual
-
-    1. Endogenous hyperinsulinism
-        - Insulinoma
-        - Functional beta cell disorders (nesidioblastosis)
-            - Noninsulinoma pancreatogenous hypoglycemia
-            - Post-gastric bypass hypoglycemia
-        - Insulin autoimmune hypoglycemia
-            - Antibody to insulin
-            - Antibody to insulin receptor
-        - Insulin secretagogue
-        - Other
-    1. Accidental, surreptitious, or malicious hypoglycemia
-
-
->>>>>>> eb0fe4a8f8d3ad8e017b7f1c1991acd169aa04c1
 ## 低血糖のModernな分類
 - 昔は、空腹時と食後で分類していた
     - この区別は現在では有用性が低いことが知られている
@@ -117,7 +84,7 @@ bibliography: references.bib
     1. 内服中または内科疾患が明らかにある患者(Ill or medicated individual)
     1. 健康(そうに見える)患者(Seemingly well individual)
 
-## 低血糖の鑑別 ~ Ill or medicated individual
+## 低血糖の鑑別 ~ Ill or medicated individual {.smaller}
 
 1. 薬剤性
     - Insulin or insulin分泌促進薬
@@ -141,7 +108,7 @@ bibliography: references.bib
     * そうであっても、副腎不全の検査の閾値は低くする
 
 
-## 低血糖の鑑別 ~ Seemingly well individual
+## 低血糖の鑑別 ~ Seemingly well individual {.smaller}
 
 1. 内因性の高インシュリン血症
     - Insulinoma
