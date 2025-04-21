@@ -73,6 +73,8 @@ bibliography: references.bib
     * いつ・どんな症状が出る？誘発因子は？
     * 薬は？OTCも含めて
 
+<<<<<<< HEAD
+=======
 
 ## 低血糖の鑑別 {.smaller}
 
@@ -106,41 +108,67 @@ bibliography: references.bib
     1. Accidental, surreptitious, or malicious hypoglycemia
 
 
+>>>>>>> eb0fe4a8f8d3ad8e017b7f1c1991acd169aa04c1
 ## 低血糖のModernな分類
 - 昔は、空腹時と食後で分類していた
     - この区別は現在では有用性が低いことが知られている
         -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
+- 現在では以下のように分ける
+    1. 内服中または内科疾患が明らかにある患者(Ill or medicated individual)
+    1. 健康(そうに見える)患者(Seemingly well individual)
 
+## 低血糖の鑑別 ~ Ill or medicated individual
 
-## Concurrent illness
+1. 薬剤性
+    - Insulin or insulin分泌促進薬
+    - アルコール
+1. 重症患者(Critical illnesses)
+    - 肝/腎/心不全
+    - 敗血症 (malariaを含む)
+1. 内分泌疾患(ホルモン分泌不全)
+    - 副腎不全(Cortisol分泌不全)
+    - グルカゴン・ノルアドレナリン分泌不全 (Insulin分泌不全の糖尿病患者において)
+        - 甲状腺機能低下やGH低下単独では低血糖にはなりにくい
+        - 下垂体疾患による合わせ技で低血糖になりやすい 
+1. Nonislet cell tumor
 
-* Critical illnessの場合はしばしば低血糖になる
+## Ill or medicated individualについて
+
+* 重症患者の場合はしばしば低血糖になる
     * 食事量低下+(肝臓/腎臓での)糖新生の低下+Insulinのclearanceの低下
     * Sepsis, 肝/腎不全
+    * この場合、色々な検査はあまり有用性は低く原病の治療が重要
+    * そうであっても、副腎不全の検査の閾値は低くする
 
-## Fitting wellの場合
 
+## 低血糖の鑑別 ~ Seemingly well individual
 
-## 内因性のhyperinsulinism
+1. 内因性の高インシュリン血症
+    - Insulinoma
+    - 機能性Β細胞疾患(Functional beta cell disorders; nesidioblastosis)
+        - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)
+            - 膵島細胞の過形成および、Lngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴
+        - Post-gastric bypass hypoglycemia
+            - Gastric bypass or Nissen手術後の食後低血糖
+    - インシュリンへの自己免疫関連(Insulin autoimmune hypoglycemia)
+        - 抗insulin抗体
+        - 抗nsulin受容体抗体
+            - 自己抗体が外れた時に低血糖になる
+            - Insulin受容体への自己抗体の場合は、自己抗体が受容体を活性化させてしまう
+    - Insulin分泌促進薬
+    - その他
+1. 偶発的、あるいは故意による低血糖
 
-* SU薬などによるBeta cell secretagogue
-* Insulinoma
-* noninsulinoma pancreatogenous hypoglycemia syndrome (NIPHS)
-    * 膵島細胞の過形成および、膵管上皮細胞のLngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴
-* Gastric bypass or Nissen手術後の食後低血糖
-* Insulin autoimmune hypoglycemia
-    * 自己抗体が外れた時に低血糖になる
-    * Insulin受容体への自己抗体の場合は、自己抗体が受容体を活性化させてしまう
+## Seemingly well individual
 
-## 血糖上昇ホルモン
+* 簡単に言うと「きれいな原因の疾患」が隠れている
+* インシュリン関連の検査をしつつ、
+* **頑張って低血糖時の採血**をとりに行く！
 
-* Adrenal insufficiencyが有名
-* 甲状腺機能低下やGH低下単独では低血糖にはなりにくい
-    * 下垂体疾患による合わせ技で起こしやすい 
 
 ## 薬を考慮
 
-| 薬剤名           |                                          C-peptide                                           |
+| Evidenceレベル    |                                   薬剤名　　　　　　                                          |
 | ---------------- | :-------------------------------------------------------------------------------------------: |
 | Moderate quality |   Cibenzoline, Gatifloxacin, Pentamidine, Quinine, Indomethacin, Glucagon during endoscopy   |
 | Low qualtiy      | Chloroquineoxaline sulfonamide, Artemisin, IGF-1, Lithium, Propoxypherene/Dextropropoxyphene |
