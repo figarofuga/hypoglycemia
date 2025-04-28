@@ -33,7 +33,7 @@ bibliography: references.bib
 
 * 78歳男性
 * 繰り返す低血糖で入院
-* 例えばこれも
+* 食事摂取低下後の低血糖で入院<br>→退院後に低血糖によるCPAで救急科入院<br>→総合内科添加後も低血糖を繰り返した・・・・・・
 
 
 ## 低血糖！とくらいつく前に・・・
@@ -48,7 +48,7 @@ bibliography: references.bib
     - 血糖値が改善したら症状も改善する
 - 若年女性だと絶食期間があると無症状の低血糖になる事は多い
 
-## 具体的な症状 {.smaller}
+## 具体的な症状 
 
 - Insulinomaで多い症状
     - 77%が自律神経症状、96%が神経症状(>= 80%が混乱・異常行動, 50%が意識消失、12-19%が痙攣発作)
@@ -65,24 +65,24 @@ bibliography: references.bib
 
 ![](./figure/flowchart.svg)
 
-* ここれも
-
+* 真の低血糖を確認したら2種類に分ける
 
 
 ## Hypoglycemiaの問診
 
 * 詳細な病歴
     * いつ・どんな症状が出る？誘発因子は？
-    * 薬は？OTCも含めて
+    * 薬は？
+        * OTC、漢方薬も含めて確認する
 
 
 ## 低血糖のModernな分類
 - 昔は、空腹時と食後で分類していた
     - この区別は現在では有用性が低いことが知られている
-        -　患者が自覚できない事もちゃんと病歴を述べられないことも多い
+        - 患者が自覚できない事もちゃんと病歴を述べられないことも多い
 - 現在では以下のように分ける
-    1. 内服中または内科疾患が明らかにある患者(Ill or medicated individual)
-    1. 健康(そうに見える)患者(Seemingly well individual)
+    1. 内服中または内科疾患が明らかにある患者(Ill or medicated)
+    1. 健康(そうに見える)患者(Seemingly well)
 
 ## 低血糖の鑑別 ~ Ill or medicated individual {.smaller}
 
@@ -94,12 +94,10 @@ bibliography: references.bib
     - 敗血症 (malariaを含む)
 1. 内分泌疾患(ホルモン分泌不全)
     - 副腎不全(Cortisol分泌不全)
-    - グルカゴン・ノルアドレナリン分泌不全 (Insulin分泌不全の糖尿病患者において)
-        - 甲状腺機能低下やGH低下単独では低血糖にはなりにくい
-        - 下垂体疾患による合わせ技で低血糖になりやすい 
+    - グルカゴン・ノルアドレナリン分泌不全^[Insulin分泌不全の糖尿病患者において、下垂体疾患などによる甲状腺機能低下やGH低下で低血糖になりやすい] 
 1. Nonislet cell tumor
 
-## Ill or medicated individualについて
+## Ill or medicatedについて
 
 * 重症患者の場合はしばしば低血糖になる
     * 食事量低下+(肝臓/腎臓での)糖新生の低下+Insulinのclearanceの低下
@@ -108,20 +106,17 @@ bibliography: references.bib
     * そうであっても、副腎不全の検査の閾値は低くする
 
 
-## 低血糖の鑑別 ~ Seemingly well individual {.smaller}
+## 低血糖の鑑別 ~ Seemingly well {.smaller}
 
 1. 内因性の高インシュリン血症
     - Insulinoma
     - 機能性Β細胞疾患(Functional beta cell disorders; nesidioblastosis)
-        - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)
-            - 膵島細胞の過形成および、Lngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴
+        - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)^[膵島細胞の過形成および、Lngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴] 
         - Post-gastric bypass hypoglycemia
             - Gastric bypass or Nissen手術後の食後低血糖
     - インシュリンへの自己免疫関連(Insulin autoimmune hypoglycemia)
-        - 抗insulin抗体
-        - 抗nsulin受容体抗体
-            - 自己抗体が外れた時に低血糖になる
-            - Insulin受容体への自己抗体の場合は、自己抗体が受容体を活性化させてしまう
+        - 抗Insulin抗体^[自己抗体が外れた時に低血糖になる]
+        - 抗Insulin受容体抗体^[Insulin受容体への自己抗体が受容体を活性化させる] 
     - Insulin分泌促進薬
     - その他
 1. 偶発的、あるいは故意による低血糖
@@ -159,7 +154,7 @@ bibliography: references.bib
 |         外因性insulin         |         >>3         |        <0.2        |         <5          |           ≤2.7           | 陰性 (時に陽性) |
 |    Insulinoma, NIPHS<sup>1</sup>, PGBH<sup>2</sup>    |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
 |          血糖降下薬           |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
-|        Insulin自己抗体        |         >>3         |       >>0.2        |        >>5¶         |           ≤2.7           |      陽性       |
+|        Insulin自己抗体        |         >>3         |       >>0.2        |        >>5         |           ≤2.7           |      陽性       |
 |           IGFによる           |         <3          |        <0.2        |         <5          |           ≤2.7           |      陰性       |
 | Not insulin (or IGF)-mediated |         <3          |        <0.2        |         <5          |           >2.7           |      陰性       |
 
@@ -167,7 +162,7 @@ bibliography: references.bib
 1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
 2. PGBH: post-gastric bypass hypoglycemia
 
-## Point {.smaller}
+## Point 
 
 * Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
 * C-peptide, ProInsulinはInsulinが内因性か外因性かを判断する
@@ -184,6 +179,9 @@ bibliography: references.bib
 3. Bariatric surgery, Insulinや血糖降下薬のアクセス、悪性腫瘍の既往
 4. Concurrent illnessと判断
 
+## Dynamedのアルゴリズム
+
+![](./figure/dynamed_flowchart.pdf)
 
 ## 勇気を持って
 
@@ -213,6 +211,11 @@ bibliography: references.bib
 * 閾値は通常と異なること二注意
 * 低血糖時の検査の閾値での結果はInsulinomaに対して感度>90%, 特異度>70%
 
+## Take home message
+
+* 低血糖を見た時には、Whippleの三徴で真の低血糖かを確認する
+* 低血糖は**seeming well**か**medicated or ill**で鑑別する
+* 低血糖の原因はInsulin関連かInsulin以外かで考えると分かりやすい
 
 ## Reference
 
