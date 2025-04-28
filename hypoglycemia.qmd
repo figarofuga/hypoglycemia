@@ -104,7 +104,8 @@ bibliography: references.bib
     * Sepsis, 肝/腎不全
     * この場合、色々な検査はあまり有用性は低く原病の治療が重要
     * そうであっても、副腎不全の検査の閾値は低くする
-
+* Nonislet cell tumorはIGF2産生腫瘍によりInsulinomaのようになる疾患
+    * 殆どは肝細胞癌で腫瘍は巨大である
 
 ## 低血糖の鑑別 ~ Seemingly well {.smaller}
 
@@ -177,11 +178,11 @@ bibliography: references.bib
 1. 副腎不全を否定する
 2. アルコールや薬などの低血糖Riskの確認
 3. Bariatric surgery, Insulinや血糖降下薬のアクセス、悪性腫瘍の既往
-4. Concurrent illnessと判断
+4. medicated or illと判断
 
 ## Dynamedのアルゴリズム
 
-![](./figure/dynamed_flowchart.pdf)
+![](./figure/dynamed_flowchart.png)
 
 ## 勇気を持って
 
