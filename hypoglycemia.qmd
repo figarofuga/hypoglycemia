@@ -184,6 +184,7 @@ bibliography: references.bib
 
 ![](./figure/dynamed_flowchart.png)
 
+
 ## 勇気を持って
 
 * Insulin/IGFによる低血糖疑い or 原因がわからない時に**誘発試験**の適応
