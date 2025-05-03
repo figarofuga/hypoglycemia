@@ -97,6 +97,13 @@ bibliography: references.bib
     - グルカゴン・ノルアドレナリン分泌不全^[Insulin分泌不全の糖尿病患者において、下垂体疾患などによる甲状腺機能低下やGH低下で低血糖になりやすい] 
 1. Nonislet cell tumor
 
+## Nonislet cell tumorについて
+
+-   膵臓以外の腫瘍による低血糖
+-   機序として複数あり
+    -   IGF2を産生する事によりInsulinomaのような病態になる
+    -   悪性腫瘍自身が血糖を消費する　など
+
 ## Ill or medicatedについて
 
 * 重症患者の場合はしばしば低血糖になる
@@ -182,7 +189,7 @@ bibliography: references.bib
 
 ## Dynamedのアルゴリズム
 
-![](./figure/dynamed_flowchart.png)
+![](./figure/dynamed_flowchart.drawio.png)
 
 
 ## 勇気を持って
