@@ -60,6 +60,22 @@ bibliography: references.bib
     - 40 mg/dL未満は有意: 繰り返す低血糖で症状が出なくなっている可能性
     - 40-64 mg/dL: 患者背景で考える
 
+## 低血糖の考え方
+
+- 栄養不良や吸収不良による低血糖は稀
+- 血糖を上げるホルモンと下げるホルモンで考えると良い
+- 血糖を上げるホルモン(が少ない)
+		- 甲状腺ホルモン
+		- Glucagon
+		- Adrenaline
+		- GHなど
+- 血糖を下げるホルモン(が多い)
+		- Insulin
+		- Insulin likeなホルモン(IGF-2など)
+
+## ただし・・・・・・
+
+- 下記理由から、この考え方よりはより実践的な考え方がある
 
 ## 低血糖の診断 at glance
 
@@ -119,7 +135,7 @@ bibliography: references.bib
 1. 内因性の高インシュリン血症
     - Insulinoma
     - 機能性Β細胞疾患(Functional beta cell disorders; nesidioblastosis)
-        - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)^[膵島細胞の過形成および、Lngerhans細胞への分化による低血糖。食後2-4時間で低血糖が起こることが特徴] 
+        - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)
         - Post-gastric bypass hypoglycemia
             - Gastric bypass or Nissen手術後の食後低血糖
     - インシュリンへの自己免疫関連(Insulin autoimmune hypoglycemia)
@@ -128,6 +144,19 @@ bibliography: references.bib
     - Insulin分泌促進薬
     - その他
 1. 偶発的、あるいは故意による低血糖
+
+## NIPHSについて
+
+- 膵島細胞の過形成および、Lngerhans細胞への分化による稀な低血糖の原因
+- 食後2-4時間で低血糖が起こることが特徴
+- The predominant clinical feature of noninsulinoma pancreatogenous hypoglycemia syndrome (NIPHS) is postprandial hypoglycemia with adrenergic (eg, tachycardia, tremor) and neuroglycopenic (eg, confusion, seizure, or dysarthria) symptoms. Patients may have neuroglycopenic symptoms without adrenergic symptoms.
+- 内因性の高Insulin血症
+
+## PGBHについて
+
+- 
+
+## Insulin autoimmune hypoglycemiaについて
 
 ## Seemingly well individual
 
