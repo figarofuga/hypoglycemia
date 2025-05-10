@@ -218,7 +218,7 @@ bibliography: references.bib
 
 ![](./figure/uptodate_flowchart.drawio.png)
 
-1. 副腎不全を否定する
+1. 副腎不全を否定する[@Adrian-hypoglycemia-determining]
 2. 問診を重視
 →理論的というよりは、実践的
 
@@ -226,7 +226,7 @@ bibliography: references.bib
 
 ![](./figure/dynamed_flowchart.drawio.png)
 
-1. 薬剤性を病歴から否定はUptoDateと一緒
+1. 薬剤性を病歴から否定はUptoDateと一緒[@DynaMed_hypoglycemia]
 2. 検査結果がPureじゃないconcurrent illnessを除外
 →どちらかというと理論派
 
