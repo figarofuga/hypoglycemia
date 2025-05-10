@@ -148,13 +148,15 @@ bibliography: references.bib
 ## NIPHSについて
 
 - 膵島細胞の過形成および、Lngerhans細胞への分化による稀な低血糖の原因
-- 食後2-4時間で低血糖が起こることが特徴
-- The predominant clinical feature of noninsulinoma pancreatogenous hypoglycemia syndrome (NIPHS) is postprandial hypoglycemia with adrenergic (eg, tachycardia, tremor) and neuroglycopenic (eg, confusion, seizure, or dysarthria) symptoms. Patients may have neuroglycopenic symptoms without adrenergic symptoms.
-- 内因性の高Insulin血症
+    - 腫瘍のないInsulinomaみたいな感じ
+- 食後2-4時間で低血糖が起こることが特徴で、精神神経症状が起こる
 
 ## PGBHについて
 
-- 
+- Roux-en-Y gastric bypass (RYGB) surgeryの後の低血糖
+- 以前は晩期Dumping症候群と言われていた
+- Etiologyははっきり分かっていないが、複数のHormon異常が原因とされている
+
 
 ## Insulin autoimmune hypoglycemiaについて
 
@@ -199,6 +201,10 @@ bibliography: references.bib
 1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
 2. PGBH: post-gastric bypass hypoglycemia
 
+## 検査結果の読み方
+
+![](./figure/labo_interpret.drawio.png)
+
 ## Point 
 
 * Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
@@ -210,16 +216,19 @@ bibliography: references.bib
 
 ## UptoDateのアルゴリズム
 
+![](./figure/uptodate_flowchart.drawio.png)
 
 1. 副腎不全を否定する
-2. アルコールや薬などの低血糖Riskの確認
-3. Bariatric surgery, Insulinや血糖降下薬のアクセス、悪性腫瘍の既往
-4. medicated or illと判断
+2. 問診を重視
+→理論的というよりは、実践的
 
 ## Dynamedのアルゴリズム
 
 ![](./figure/dynamed_flowchart.drawio.png)
 
+1. 薬剤性を病歴から否定はUptoDateと一緒
+2. 検査結果がPureじゃないconcurrent illnessを除外
+→どちらかというと理論派
 
 ## 勇気を持って
 
