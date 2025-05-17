@@ -101,7 +101,7 @@ nocite: |
     1. 内服中または内科疾患が明らかにある患者(Ill or medicated)
     1. 健康(そうに見える)患者(Seemingly well)
 
-## 低血糖の鑑別 ~ Ill or medicated individual {.smaller}
+## 低血糖の鑑別 ~ Ill or medicated individual
 
 1. 薬剤性
     - Insulin or insulin分泌促進薬
@@ -114,13 +114,6 @@ nocite: |
     - グルカゴン・ノルアドレナリン分泌不全^[Insulin分泌不全の糖尿病患者において、下垂体疾患などによる甲状腺機能低下やGH低下で低血糖になりやすい] 
 1. Nonislet cell tumor
 
-## Nonislet cell tumorについて
-
--   膵臓以外の腫瘍による低血糖
--   機序として複数あり
-    -   IGF2を産生する事によりInsulinomaのような病態になる
-    -   悪性腫瘍自身が血糖を消費する　など
-
 ## Ill or medicatedについて
 
 * 重症患者の場合はしばしば低血糖になる
@@ -130,15 +123,21 @@ nocite: |
     * そうであっても、副腎不全の検査の閾値は低くする
 * Nonislet cell tumorはIGF2産生腫瘍によりInsulinomaのようになる疾患
     * 殆どは肝細胞癌で腫瘍は巨大である
+        
+## Nonislet cell tumorについて
 
-## 低血糖の鑑別 ~ Seemingly well {.smaller}
+-   膵臓以外の腫瘍による低血糖
+-   機序として複数あり
+    -   IGF2を産生する事によりInsulinomaのような病態になる
+    -   悪性腫瘍自身が血糖を消費する　など
+
+## 低血糖の鑑別 ~ Seemingly well
 
 1. 内因性の高インシュリン血症
     - Insulinoma
     - 機能性Β細胞疾患(Functional beta cell disorders; nesidioblastosis)
         - Noninsulinoma pancreatogenous hypoglycemia (NIPHS)
         - Post-gastric bypass hypoglycemia
-            - Gastric bypass or Nissen手術後の食後低血糖
     - インシュリンへの自己免疫関連(Insulin autoimmune hypoglycemia)
         - 抗Insulin抗体
         - 抗Insulin受容体抗体
@@ -161,9 +160,9 @@ nocite: |
 ## Insulin autoimmune hypoglycemiaについて
 
 - 抗Insulin抗体あるいは、Insulin受容体への抗体で起こる低血糖
-- 抗Insulin抗体は自己抗体が外れた時に低血糖になる
-- 抗Insulin受容体抗体はInsulin受容体への自己抗体が受容体を活性化させる
-
+    - 抗Insulin抗体は自己抗体が外れた時に低血糖になる
+    - 抗Insulin受容体抗体はInsulin受容体への自己抗体が受容体を活性化させる
+- 特徴として、代償のために血中Insulin濃度が異常高値となる
 
 ## Seemingly well individual
 
@@ -178,7 +177,7 @@ nocite: |
     * 薬は？
         * OTC、漢方薬も含めて確認する
 
-## 薬を考慮
+## 薬について
 
 | Evidenceレベル    |                                   薬剤名　　　　　　                                          |
 | ---------------- | :-------------------------------------------------------------------------------------------: |
@@ -187,43 +186,6 @@ nocite: |
 
 * Quinolones, Pentamidine, Quinine, BB, ACEi, IGF-1が有名
 * Very low quality of evidenceは割愛
-
-
-## 低血糖の検査の考え方～低血糖の各種の検査～
-
-* Insulinの分泌能をみる検査
-    * ProInsulin
-    * 血清C-peptide
-* Insulinが分泌していないのに血糖が低いときの検査 <br> = 脂肪酸代謝になっている
-    * 血清ケトン体
-
-## 検査結果の解釈{.smaller}
-
-|            疾患名             | Insulin (microU/mL) | C-peptide (nmol/L) | Proinsulin (pmol/L) | βヒドロキシ酪酸 (mmol/L) | insulin自己抗体 |
-| :---------------------------: | :----------------: | :-----------------: | :-----------------: | :--------------------: | :-------------: |
-|         外因性insulin         |         >>3         |        <0.2        |         <5          |           ≤2.7           | 陰性 (時に陽性) |
-|    Insulinoma, NIPHS<sup>1</sup>, PGBH<sup>2</sup>    |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
-|          血糖降下薬           |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
-|        Insulin自己抗体        |         >>3         |       >>0.2        |        >>5         |           ≤2.7           |      陽性       |
-|           IGFによる           |         <3          |        <0.2        |         <5          |           ≤2.7           |      陰性       |
-| Not insulin (or IGF)-mediated |         <3          |        <0.2        |         <5          |           >2.7           |      陰性       |
-
-
-1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
-2. PGBH: post-gastric bypass hypoglycemia
-
-## 検査結果の読み方
-
-![](./figure/labo_interpret.drawio.png)
-
-## Point 
-
-* Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
-* C-peptide, ProInsulinはInsulinが内因性か外因性かを判断する
-    * Insulinによる低血糖の時に、C-peptide <0.2nmol/L(0.6 ng/mL)は外因性のInsulin
-    * ProInsulin <5 pmol/Lは外因性のInsulinを示唆する
-    * ProInsulin, C-peptideが高いと悪性腫瘍を示唆し、Proinsulinが高値なほど未分化
-* βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、慢性の低栄養、肝腎不全、薬剤性など
 
 ## UptoDateのアルゴリズム
 
@@ -281,6 +243,43 @@ nocite: |
 
 :::
 
+## 低血糖の検査の考え方～低血糖の各種の検査～
+
+* Insulinの分泌能をみる検査
+    * ProInsulin
+    * 血清C-peptide
+* Insulinが分泌していないのに血糖が低いときの検査 <br> = 脂肪酸代謝になっている
+    * 血清ケトン体
+
+## 検査結果の解釈{.smaller}
+
+|            疾患名             | Insulin (microU/mL) | C-peptide (nmol/L) | Proinsulin (pmol/L) | βヒドロキシ酪酸 (mmol/L) | insulin自己抗体 |
+| :---------------------------: | :----------------: | :-----------------: | :-----------------: | :--------------------: | :-------------: |
+|         外因性insulin         |         >>3         |        <0.2        |         <5          |           ≤2.7           | 陰性 (時に陽性) |
+|    Insulinoma, NIPHS<sup>1</sup>, PGBH<sup>2</sup>    |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
+|          血糖降下薬           |         ≥3          |        ≥0.2        |         ≥5          |           ≤2.7           |      陰性       |
+|        Insulin自己抗体        |         >>3         |       >>0.2        |        >>5         |           ≤2.7           |      陽性       |
+|           IGFによる           |         <3          |        <0.2        |         <5          |           ≤2.7           |      陰性       |
+| Not insulin (or IGF)-mediated |         <3          |        <0.2        |         <5          |           >2.7           |      陰性       |
+
+
+1. NIPHS: noninsulinoma pancreatogenous hypoglycemia syndrome
+2. PGBH: post-gastric bypass hypoglycemia
+
+## 検査結果の読み方
+
+![](./figure/labo_interpret.drawio.png)
+
+## Point 
+
+* Insulin ≧3 μU/mLはInsulinによる低血糖を示唆する
+* C-peptide, ProInsulinはInsulinが内因性か外因性かを判断する
+    * Insulinによる低血糖の時に、C-peptide <0.2nmol/L(0.6 ng/mL)は外因性のInsulin
+    * ProInsulin <5 pmol/Lは外因性のInsulinを示唆する
+    * ProInsulin, C-peptideが高いと悪性腫瘍を示唆し、Proinsulinが高値なほど未分化
+* βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、慢性の低栄養、肝腎不全、薬剤性など
+
+
 ## 検査の解釈
 
 * 閾値は通常と異なること二注意
@@ -293,3 +292,6 @@ nocite: |
 * 低血糖の原因はInsulin関連かInsulin以外かで考えると分かりやすい
 
 ## Reference
+
+::: {#refs}
+:::
