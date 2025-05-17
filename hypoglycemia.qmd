@@ -45,7 +45,7 @@ nocite: |
 - Whippleの3徴を確認する
     - Symptoms consistent with hypoglycemia
         - 自律神経症状: 振戦、動悸、不安/興奮、発汗、空腹感、
-        - Neurogycopenic symptoms: めまい、脱力、意識障害
+        - Neuroglycopenic symptoms: めまい、脱力、意識障害
     - 有症状時に通常の採血で血糖値< 55mg/dLが証明されている
     - 血糖値が改善したら症状も改善する
 - 若年女性だと絶食期間があると無症状の低血糖になる事は多い
@@ -54,7 +54,7 @@ nocite: |
 
 - Insulinomaで多い症状
     - 77%が自律神経症状
-    - 96%が神経症状
+    - 96%が血糖低下による神経症状
         - &ge; 80%が混乱・異常行動,
         - 50%が意識消失
         - 12-19%が痙攣発作
@@ -81,6 +81,15 @@ nocite: |
     - 血糖を下げるホルモン(原因として多い)
 	    - Insulin
 	    - Insulin likeなホルモン(IGF-2など)
+
+## 人体の空腹への生理的反応
+
+1. Insulinを抑制されて血糖利用が抑制される
+1. Glucagon分泌が増えて、糖新生が増える
+    1. 脂質代謝が増えて、ケトン体(Βヒドロキシ酪酸)が増加する
+1. AdrenalineおよびCortisol、GHが増加
+    1. 自律神経症状が出る
+1. 更に血糖値が下がる(48-50 mg/dL)と脳が血糖低下に耐えられずにneuroglycopenic symptomを起こす[@Rayas2000-tj]
 
 ## ただし・・・・・・
 
@@ -122,7 +131,7 @@ nocite: |
     * この場合、色々な検査はあまり有用性は低く原病の治療が重要
     * そうであっても、副腎不全の検査の閾値は低くする
 * Nonislet cell tumorはIGF2産生腫瘍によりInsulinomaのようになる疾患
-    * 殆どは肝細胞癌で腫瘍は巨大である
+    * 殆どは肝細胞癌や肉腫で通常腫瘍は巨大(殆どが70%以上)
         
 ## Nonislet cell tumorについて
 
@@ -130,6 +139,7 @@ nocite: |
 -   機序として複数あり
     -   IGF2を産生する事によりInsulinomaのような病態になる
     -   悪性腫瘍自身が血糖を消費する　など
+-   巨大な肝臓癌が大きく、70%以上が10cmより大きい
 
 ## 低血糖の鑑別 ~ Seemingly well
 
@@ -159,10 +169,14 @@ nocite: |
 
 ## Insulin autoimmune hypoglycemiaについて
 
-- 抗Insulin抗体あるいは、Insulin受容体への抗体で起こる低血糖
-    - 抗Insulin抗体は自己抗体が外れた時に低血糖になる
-    - 抗Insulin受容体抗体はInsulin受容体への自己抗体が受容体を活性化させる
-- 特徴として、代償のために血中Insulin濃度が異常高値となる
+- 抗Insulin抗体(Insulin autoimmune syndrome)あるいは、Insulin受容体への抗体(type B insulin reistance)で起こる低血糖[@Rayas2000-tj]
+- 抗Insulin抗体は自己抗体が外れた時に低血糖になる
+    - 食後すぐの高血糖と数時間経過した後の低血糖が特徴
+    - 日本人だと、MMI内服後に起こりやすい(非Asianだと、血液疾患や自己免疫疾患背景が多い)
+- 抗Insulin受容体抗体はInsulin受容体へのpartial agonistによって起こる
+    - 低力価だと低血糖、高力価だと高血糖となる
+    - 背景にSLEなどが多い
+- 代償として血中C-peptide, Insulin濃度が異常高値となる
 
 ## Seemingly well individual
 
@@ -172,10 +186,14 @@ nocite: |
 
 ## Hypoglycemiaの問診
 
+* 日常生活
+    * 栄養状態、普段の食事内容
 * 詳細な病歴
     * いつ・どんな症状が出る？誘発因子は？
-    * 薬は？
-        * OTC、漢方薬も含めて確認する
+* 患者背景
+    * 既往歴や併存症(肝腎不全など)の確認
+* 薬は？
+    * OTC、漢方薬も含めて確認する[@Rayas2000-tj]
 
 ## 薬について
 
