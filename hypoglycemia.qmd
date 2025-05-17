@@ -130,8 +130,7 @@ nocite: |
     * Sepsis, 肝/腎不全
     * この場合、色々な検査はあまり有用性は低く原病の治療が重要
     * そうであっても、副腎不全の検査の閾値は低くする
-* Nonislet cell tumorはIGF2産生腫瘍によりInsulinomaのようになる疾患
-    * 殆どは肝細胞癌や肉腫で通常腫瘍は巨大(殆どが70%以上)
+* Nonislet cell tumor
         
 ## Nonislet cell tumorについて
 
