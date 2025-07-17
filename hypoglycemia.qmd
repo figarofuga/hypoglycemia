@@ -1,6 +1,6 @@
 ---
 title: 低血糖についての覚書
-subtitle: 低血糖の考え方
+subtitle: 低血糖の機序と実践
 format:
   revealjs:
     width: 1200
@@ -50,9 +50,11 @@ nocite: |
 
 ## 人体の空腹への生理的反応
 
+![](./figure/insulin_effect.jpeg){fig-align="center" width=200%}
+
 1. Insulinを抑制されて血糖利用が抑制される
 1. Glucagon分泌が増えて、糖新生が増える
-    1. 脂質代謝が増えて、ケトン体(Βヒドロキシ酪酸)が増加する
+    1. 脂質代謝が増えて、ケトン体(βヒドロキシ酪酸)が増加する
 1. AdrenalineおよびCortisol、GHが増加
     1. 自律神経症状が出る
 1. 更に血糖値が下がる(48-50 mg/dL)と脳が血糖低下に耐えられずにneuroglycopenic symptomを起こす[@Rayas2000-tj]
@@ -77,7 +79,7 @@ nocite: |
     - 40-64 mg/dL: 患者背景で考える
 
 
-# 低血糖の鑑別診断のたてかた
+# 低血糖の鑑別診断の<br>たてかた
 
 ## 低血糖の考え方
 
@@ -115,7 +117,7 @@ nocite: |
     - 敗血症 (malariaを含む)
 1. 内分泌疾患(ホルモン分泌不全)
     - 副腎不全(Cortisol分泌不全)
-    - グルカゴン・ノルアドレナリン分泌不全^[Insulin分泌不全の糖尿病患者において、下垂体疾患などによる甲状腺機能低下やGH低下で低血糖になりやすい] 
+    - グルカゴン・ノルアドレナリン分泌不全^[Insulin分泌不全の糖尿病患者において、下垂体疾患などによる甲状腺機能低下やGH低下で低血糖に<br>なりやすい] 
 1. Nonislet cell tumor
 
 ## Ill or medicatedについて
@@ -134,7 +136,7 @@ nocite: |
     -   IGF-IIを産生する事によりInsulinomaのような病態になる
     -   悪性腫瘍自身が血糖を消費する　など
 -   巨大な肝臓癌が大きく、70%以上が10cmより大きい
--   検査結果として、free IGF-IIが上昇し、IGF-I, Insulinが低下する事が知られている[@Martens2014-do]
+-   検査結果として、free IGF-IIが上昇し、IGF-I, Insulinが低下する事が<br>知られている[@Martens2014-do]
 
 
 ## 低血糖の鑑別 ~ Seemingly well
@@ -164,7 +166,7 @@ nocite: |
 
 ## NIPHSについて
 
-- 膵島細胞の過形成(nesidioblastosis)および、Lngerhans細胞への分化による稀な低血糖の原因
+- 膵島細胞の過形成(nesidioblastosis)および、Lngerhans細胞への<br>分化による稀な疾患
     - 腫瘍のないInsulinomaみたいな感じ
 - 食後2-4時間で低血糖が起こることが特徴で、精神神経症状が起こる[@Adrian-niphs]
 - 男性に多い
@@ -173,14 +175,14 @@ nocite: |
 
 - Roux-en-Y gastric bypass (RYGB) surgeryの後の低血糖
 - 以前は晩期Dumping症候群と言われていた
-- Etiologyははっきり分かっていないが、複数のHormon異常が原因とされている[@James-Bariatric]
+- Etiologyははっきり分かっていないが、複数のHormon異常が<br>原因とされている[@James-Bariatric]
 
 ## Insulin autoimmune hypoglycemiaについて
 
-- 抗Insulin抗体(Insulin autoimmune syndrome)あるいは、Insulin受容体への抗体(type B insulin reistance)で起こる低血糖[@Rayas2000-tj]
+- 抗Insulin抗体(Insulin autoimmune syndrome)あるいは、<br>Insulin受容体への抗体(type B insulin reistance)で起こる低血糖[@Rayas2000-tj]
 - 抗Insulin抗体は自己抗体が外れた時に低血糖になる
     - 食後すぐの高血糖と数時間経過した後の低血糖が特徴
-    - 日本人だと、MMI内服後に起こりやすい(非Asianだと、血液疾患や自己免疫疾患背景が多い)
+    - 日本人だと、MMI内服後に起こりやすい(非Asianだと、血液疾患や<br>自己免疫疾患背景が多い)
 - 抗Insulin受容体抗体はInsulin受容体へのpartial agonistによって起こる
     - 低力価だと低血糖、高力価だと高血糖となる
     - 背景にSLEなどが多い
@@ -224,7 +226,7 @@ nocite: |
 ![](./figure/dynamed_flowchart.drawio.png)
 
 1. 薬剤性を病歴から否定はUptoDateと一緒
-2. 検査結果がPureじゃないconcurrent illnessを除外
+2. 検査結果がPureじゃないconcurrent illnessを除外<br>
 →どちらかというと理論派
 
 ## 勇気を持って、低血糖誘発試験
@@ -239,7 +241,7 @@ nocite: |
     * プロインシュリン値
     * (血糖降下薬のスクリーニング)
 
-## 低血糖の検査の考え方～低血糖の各種の検査～
+## 低血糖の検査の考え方〜各種の検査の意味～
 
 * 血中Insulin = 内因性+外因性のInsulin
 * 内因性のInsulinの量をみる検査
@@ -303,8 +305,8 @@ nocite: |
     * Insulinによる低血糖の時に、C-peptide <0.2nmol/L(0.6 ng/mL)は外因性のInsulin
     * ProInsulin <5 pmol/Lは外因性のInsulinを示唆する
     * ProInsulin, C-peptideが高いと悪性腫瘍を示唆し、Proinsulinが高値なほど未分化
-* βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、慢性の低栄養、肝腎不全、薬剤性など
-* 低血糖時の検査の閾値での結果はInsulinomaに対して感度>90%, 特異度>70%
+* βヒドロキシ酪酸はInsulinまたはIGFによる低血糖では抑制される<br> = 陽性の場合はInsulinやIGFによる低血糖は否定的で、Cortisol欠乏、<br>慢性の低栄養、肝腎不全、薬剤性など
+* 低血糖時の検査の閾値での結果はInsulinomaに対して<br>感度>90%, 特異度>70%
 
 ## Take home message
 
